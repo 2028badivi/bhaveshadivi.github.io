@@ -10,7 +10,7 @@ export interface HeroDeviceAssembleProps {
 }
 
 const FONT_FAMILY =
-  "var(--font-geist-sans), -apple-system, BlinkMacSystemFont, sans-serif";
+  "var(--font-sans), -apple-system, BlinkMacSystemFont, sans-serif";
 
 function MockUI({ accentColor }: { accentColor: string }) {
   return (
@@ -117,7 +117,11 @@ export function HeroDeviceAssemble({
     mouseY.set(0);
   }
 
-  const assembleTransition = { duration: 1.5, type: "spring", bounce: 0.1 };
+  const assembleTransition = {
+    duration: 1.5,
+    type: "spring" as const,
+    bounce: 0.1,
+  };
 
   return (
     <div

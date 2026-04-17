@@ -1,12 +1,11 @@
 export const resumeData = {
-  summary: "I am a highly-motivated high school sophomore with a deep-rooted passion for STEM leadership, and various extracurriculars in human-faced engineering and STEM outreach. I strive to develop my skills in computer science and biomedical simulations while making a meaningful impact for a common goal as a team. I truly enjoy learning new skills in team-based fast-paced rigorous environments and exploring how to integrate different disciplines with deeper meaning rather than just solving problems, and I hope to apply and grow my skills and passion as an aspiring human-centric biomedical engineer.",
+  summary:
+    "I’m a high school sophomore focused on human-centric biomedical engineering—building software and simulations at the intersection of computer science and medicine. I thrive in fast-paced, team-based environments and love connecting disciplines to solve meaningful problems.",
   education: {
     school: "Thomas Jefferson High School for Science and Technology (TJHSST)",
     location: "Alexandria, Virginia",
-    gpa: "4.435",
     graduation: "Expected Graduation June 2028",
     notables: "~14 AP STEM classes and exams expected by graduation; 5+ AV, DE, and non-AP college-credit classes by graduation",
-    coursework: "All Weighted Math, AP Precalculus BC and Calculus BC (2026), AP Statistics (2027), Multivariable Calculus (2027), Linear Algebra (2027), APCSA+ Data Structures and Algorithms, All Weighted Science, AP Chemistry (2026), AP Biology (exam), AP Physics C E&M (2026), Artificial Intelligence 1 & 2, Computer Vision 1 Neuroscience Research Lab (2027), Organic Chemistry (2027), TJ Bioinformatics Honors + Research Project (2026)"
   },
   projects: [
     {
@@ -14,6 +13,10 @@ export const resumeData = {
       location: "Washington District of Columbia",
       role: "Cancer Research Intern at Dynamic Precision Medicine Laboratory",
       date: "March 2026-present",
+      logo: {
+        src: "https://logo.clearbit.com/georgetown.edu",
+        alt: "Georgetown University",
+      },
       points: [
         "Recently joined computational team, who are pioneers in the field for the concept of Dynamic Precision Medicine (DPM)",
         "Writing position-based research paper on Implications of DPM and mechanistic ODEs for Evolutionary Classifiers",
@@ -25,6 +28,10 @@ export const resumeData = {
       location: "Richmond, Virginia",
       role: "Laboratory Research Intern at OpenCyberCity Testbed",
       date: "February 2026-present",
+      logo: {
+        src: "https://logo.clearbit.com/vcu.edu",
+        alt: "Virginia Commonwealth University",
+      },
       points: [
         "Building end-to-end cyber-physical robotics systems within a simulated smart-city environment: Raspberry PI, CAD",
         "Developing GUI and mechanical control systems for robotics infrastructure; currently planning elevator subsystem design"
@@ -35,6 +42,10 @@ export const resumeData = {
       location: "Fairfax, Virginia",
       role: "Co-founder and Chief Technology Officer",
       date: "July 2025-present",
+      logo: {
+        src: "https://logo.clearbit.com/codethecure.app",
+        alt: "CodeTheCure",
+      },
       points: [
         "Co-founded first-ever RAG-powered AI software to make oncology information accessible for over ~900 cancer patients",
         "Engineered high-throughput and low-latency (~200 ms) oncology research-backed intelligence with development team",
@@ -47,6 +58,10 @@ export const resumeData = {
       location: "Fairfax, Virginia",
       role: "Science Fair Independent Research",
       date: "November 2024-March 2025",
+      logo: {
+        src: "https://logo.clearbit.com/isic-archive.com",
+        alt: "ISIC (International Skin Imaging Collaboration)",
+      },
       points: [
         "Collected 520+ samples of skin lesion images from the ISIC online database and fine-tuned python Computer Vision model",
         "Integrated AI with Metabolic Assessment Device using Arduino to diagnose skin cancer in patients at 81.25% accuracy",
@@ -58,6 +73,10 @@ export const resumeData = {
         location: "Chantilly, Virginia",
         role: "Team Research Member",
         date: "April 2025-June 2025",
+        logo: {
+          src: "https://logo.clearbit.com/chantillyhs.fcps.edu",
+          alt: "Chantilly High School",
+        },
         points: [
           "Researched with a team on the link between Homeostasis of Daphnia magna and Ecosystem Biodiversity",
           "Collected 40+ heart rate readings of Daphnia magna and Developed a Ecosystem Health Assessment algorithm",
@@ -111,14 +130,9 @@ export const resumeData = {
       }
   ],
   skillsAndHonors: [
-    "National honors at Destination Imagination Tech Challenge (1st place-city, 4th place-states, and 5th place-global finals)",
-    "Gold Presidential Volunteer Service Award (2024) with 420+ verified service hours so far",
-    "Substantial Applied Proficiency in Programming: AI/ML: Java, Python, JavaScript, HTML, C++, Arduino, Data-Analysis, Pytorch, Mathematical Modeling (MATLAB, R Studio), Molecular Docking (Autodock VINA)",
-    "Advanced Violinist (4+ years with 2 UIL ‘1’ awards)",
-    "Proficiency in Spanish (6 years) and Telugu",
-    "FIRST Tech Challenge Robotics 1st place Regional Competition (2022)",
-    "Competitive Chess player (~1000 USCF and ~1800 lichess)",
-    "TSA State FINALIST in Inventions and Innovations, Biomedical Engineering, and System Control Technology (2023-2024)",
-    "Science Olympiad States: Ecology (6th place), Microbe Mission (6th place), Code Analysis (7th place)"
+    "National honors at Destination Imagination Tech Challenge (5th place global finals)",
+    "Gold Presidential Volunteer Service Award (2024) — 420+ verified service hours",
+    "TSA State Finalist — Inventions & Innovations, Biomedical Engineering, System Control Technology (2023–2024)",
+    "Science Olympiad States — Ecology (6th), Microbe Mission (6th), Code Analysis (7th)"
   ]
 };
