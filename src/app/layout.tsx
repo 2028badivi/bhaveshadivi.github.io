@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Bhavesh Adivi",
-  description: "Personal portfolio of Bhavesh, a highly-motivated high school sophomore with a passion for STEM, AI, and Biomedical Engineering.",
+  description: "Personal portfolio of Bhavesh, a high school sophomore with a passion for STEM, Engineering, and Biomedicine.",
 };
 
 export default function RootLayout({
