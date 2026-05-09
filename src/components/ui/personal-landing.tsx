@@ -66,7 +66,7 @@ function HeroSection() {
         Hi, I&apos;m Bhavesh
       </h1>
       <p className="text-xl md:text-2xl text-zinc-300 max-w-2xl mx-auto font-medium">
-        I am a research-driven aspiring physician-scientist working at the intersection of Human-centric Engineering and Biomathematics.
+        I am a research-driven aspiring computer scientist working at the intersection of Human-centric Engineering and Biomathematics.
       </p>
     </section>
   );
