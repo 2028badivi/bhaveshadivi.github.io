@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Bhavesh Adivi",
-  description: "Personal portfolio of Bhavesh, a high school sophomore with a passion for STEM, Engineering, and Biomedicine.",
+  description: "High school researcher @TJHSST | CS + Biomedicine | Terminal",
 };
 
 export default function RootLayout({
@@ -12,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased dark">
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className="h-full dark">
+      <body className="min-h-full bg-black text-green-400 font-mono">{children}</body>
     </html>
   );
 }

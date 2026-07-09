@@ -1,0 +1,37 @@
+import React from 'react';
+
+export const asciiBanner = (
+  <pre className="text-green-400 font-mono text-xs md:text-sm leading-tight">
+{`██████╗ ██╗  ██╗ █████╗ ██╗   ██╗███████╗███████╗██╗  ██╗
+██╔══██╗██║  ██║██╔══██╗██║   ██║██╔════╝██╔════╝██║  ██║
+██████╔╝███████║███████║██║   ██║█████╗  ███████╗███████║
+██╔══██╗██╔══██║██╔══██║╚██╗ ██╔╝██╔══╝  ╚════██║██╔══██║
+██████╔╝██║  ██║██║  ██║ ╚████╔╝ ███████╗███████║██║  ██║
+╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚══════╝╚═╝  ╚═╝
+
+
+ █████╗ ██████╗ ██╗██╗   ██╗██╗
+██╔══██╗██╔══██╗██║██║   ██║██║
+███████║██║  ██║██║╚██╗ ██╔╝██║
+██╔══██║██║  ██║██║ ╚████╔╝ ██║
+██║  ██║██████╔╝██║  ╚═══╝  ██║
+╚═╝  ╚═╝╚═════╝ ╚═╝         ╚═╝
+`}</pre>
+);
+
+export const helpText = `Available commands
+  help        Show this help message
+  whoami      Display user info
+  about       About me
+  education   Education background
+  projects    List research & projects
+  experience  Work & volunteer experience
+  skills      Skills & honors
+  contact     Contact information
+  banner      Show ASCII banner
+  health      System health check
+  clear       Clear the terminal
+  ls          List directories
+  pwd         Show current path
+  date        Show current date/time
+`;
