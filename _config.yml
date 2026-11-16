@@ -3,18 +3,16 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Bhavesh
+middle_name:
+last_name: Adivi
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me fastest via my tjhsst.edu email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Computational proteomics & AI/ML researcher. TJHSST high school junior exploring omics discoveries and healthtech.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  © 2026 Bhavesh Adivi. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.
+keywords: computational proteomics, AI, machine learning, omics, healthtech, TJHSST, high school researcher
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -143,7 +141,7 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: true
@@ -173,17 +171,17 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#     categories: [external-posts]
+#     tags: [medium]
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
+#     categories: [external-posts]
+#     tags: [google]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -199,6 +197,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  posts:
+    output: false
   books:
     output: true
   news:
@@ -206,8 +206,6 @@ collections:
       layout: post
     output: true
   projects:
-    output: true
-  teachings:
     output: true
 
 # -----------------------------------------------------------------------------
@@ -291,7 +289,6 @@ plugins:
   - al_cookie
   - al_analytics
   - al_citations
-  - al_ext_posts
   - al_img_tools
   - al_search
   - al_charts

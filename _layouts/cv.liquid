@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  <article>
+    <div class="cv-container">
+      <p class="cv-summary">Access to full CV and details is available via the Contacts page below.</p>
+
+      <h2 class="cv-section-title">Access</h2>
+      <div class="cv-item">
+        <strong class="cv-item-name">Contact via</strong>
+        <span class="cv-item-reference">Email 2028badivi@gmail.com / 2028badivi@tjhsst.edu, or visit the Contacts page for LinkedIn, GitHub, Google Scholar, and ORCID.</span>
+      </div>
+    </div>
+  </article>
+</div>
+
+<style>
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.cv-summary {
+  font-size: 1rem;
+  color: var(--color-fg-muted, #57606a);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+.cv-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-fg-default, #24292e);
+  border-bottom: 1px solid var(--color-border-default, #d0d7de);
+  padding-bottom: 0.25rem;
+}
+.cv-item {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+.cv-item-name {
+  min-width: 140px;
+  font-weight: 600;
+  color: var(--color-fg-default, #24292e);
+}
+.cv-item-reference {
+  flex: 1;
+  color: var(--color-fg-default, #24292e);
+}
+</style>

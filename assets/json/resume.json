@@ -1,17 +1,17 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Bhavesh Adivi",
     "label": "Scientist",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "",
+    "phone": "",
+    "summary": "Hard-working high school junior with a strong passion for exploring interdisciplinary research in computational proteomics and the cutting edge of AI/machine-learning for biological/omics discoveries. Every single day, I dedicate my time to learning the latest research in my field and strive to apply what I learn to new solutions such as through leading a healthtech startup or volunteering at a national top 10 Pediatrics Hospital. One thing that I would find unique to myself that doesn’t appear elsewhere on my resume is that when I am assigned an independent task, such as learning something new, or completing an analysis/literature review, I will extensively dedicate myself to work independently and complete that task thoroughly from start to finish and take the time and effort to go above and beyond as you will see in my past interests!",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Alexandria, Virginia",
       "countryCode": "US",
-      "region": "California"
+      "region": "Virginia",
     },
     "profiles": []
   },

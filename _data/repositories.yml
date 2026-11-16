@@ -1,14 +1,18 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - 2028badivi
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - 2028badivi/geneta
+  - 2028badivi/occ-elevator-gui
+  - 2028badivi/OncoWispr
+  - 2028badivi/ionite
+  - 2028badivi/gene-reversibility
+  - 2028badivi/bhaveshadivi.github.io
+  - 2028badivi/DPM_DB
+  - 2028badivi/airline-sentiment-analysis-2026
+  - 2028badivi/DistilMind
+  - 2028badivi/ascii
+  - 2028badivi/violin-tuner
+  - 2028badivi/petRPG
